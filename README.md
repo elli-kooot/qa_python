@@ -3,8 +3,8 @@
 
 1 проверяум, что книга добавляется - test_add_new_book_add_one_book
 2 проверяем, что не добавляются пустые названия и назания длиннее 40 символов - test_add_new_book_invalid_length_not_add
-3 проверяем, что у добавленной книги нет жанра - test_set_book_genre_add_without_genre
-4 проверяем возможность установить жанр из списка - test_add_new_book_without_genre
+3 проверяем, что у добавленной книги нет жанра - test_add_new_book_without_genre
+4 проверяем возможность установить жанр из списка - test_set_book_genre_add_genre_to_book
 5 проверяем, что невозможно установить жанр не из списка - test_set_book_genre_add_nonexistent_genre_to_book
 6 проверяем, что невозможно добавить жанр к недобавленной книге - test_set_book_genre_book_not_in_collector
 7 проверяем получение книг по жанру 'Детективы' - test_get_books_with_specific_genre_detectives
